@@ -26,13 +26,13 @@ The feature we extracted in audio is shown in the following table.
 
 |  Feature category | Number  | Value  |
 | ------------ | ------------ | ------------ |
-| Spectral centroid  |  1 | Mean, variance  |
-| Band energy radio  |  1 | Mean, variance  |
-| Delta spectrum magnitude  |  1 |  Mean, variance |
-| Zero crossing rate  | 1  |  Mean, variance |
-| Pitch  |  1 | Mean, variance  |
-| Short-time average energy  |  1 | Mean, variance  |
-| Silence ratio  |  1 |  Mean |
+| Spectral centroid  |  2 | Mean, variance  |
+| Band energy radio  |  2 | Mean, variance  |
+| Delta spectrum magnitude  |  2 |  Mean, variance |
+| Zero crossing rate  | 2  |  Mean, variance |
+| Pitch  | 2 | Mean, variance  |
+| Short-time average energy  |  2 | Mean, variance  |
+| Silence ratio  |  2 |  Mean |
 | MFCC coefficients  |  24 | Mean, variance  |
 | Delta MFCC  | 12  |   Mean|
 | LPCC  |  22 |Mean, variance   |
