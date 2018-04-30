@@ -15,7 +15,7 @@ We used the face *[recognition package](https://github.com/ageitgey/face_recogni
 ### Requirements
 
 - **face recognition**: [https://github.com/ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
-- **opencv**:[https://opencv.org/](https://opencv.org/ "https://opencv.org/")
+- **opencv**: [https://opencv.org/](https://opencv.org/ "https://opencv.org/")
 
 
 ## CNN Face Model
