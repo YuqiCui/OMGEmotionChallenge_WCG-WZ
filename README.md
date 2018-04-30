@@ -23,6 +23,7 @@ For each utterance, we down-sampled 20 frames uniformly in time (if an utterance
 
 ## SVM Audio Model
 The feature we extracted in audio is shown in the following table.
+
 |  Feature category | Number  | Value  |
 | ------------ | ------------ | ------------ |
 | Spectral centroid  |  1 | Mean, variance  |
