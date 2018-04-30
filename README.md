@@ -9,7 +9,14 @@ This method contains four parts:
   + SVM Audio Model
 
 ## Face Extraction
-face extraction method
+
+We used the face *[recognition package](https://github.com/ageitgey/face_recognition)* to crop out the face of the actor in each frame of an utterance. We also used *[opencv library](https://opencv.org)* to do some simple image processing, e. g. rescaling images. Each face image was rescaled to 80 × 80 × 3 (height × width × channel). 
+
+### Requirements
+
+- **face recognition**: [https://github.com/ageitgey/face_recognition](https://github.com/ageitgey/face_recognition)
+- **opencv**:[https://opencv.org/](https://opencv.org/ "https://opencv.org/")
+
 
 ## CNN Face Model
 We extracted face features by Xception with weights pre-trained on ImageNet. Each utterance gave n 2048-d feature vectors, where n is the number of frames. We then took the **average** of these n 2048-d feature vectors to obtain a single 2048-d feature vector for each utterance. 
