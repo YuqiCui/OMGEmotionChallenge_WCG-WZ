@@ -37,6 +37,7 @@ The feature we extracted in audio is shown in the following table.
 | Delta MFCC  | 12  |   Mean|
 | LPCC  |  22 |Mean, variance   |
 | Formant  | 5  |  Mean |
+
 Then we use relieff to select features and feed to SVR.
 
 ## Model fusion by SMLR
